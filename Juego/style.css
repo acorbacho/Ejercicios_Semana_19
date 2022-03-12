@@ -1,0 +1,36 @@
+html {
+    font-family: 'Cascadia Code';
+}
+
+body {
+    margin: 0;
+    background-color:blanchedalmond;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 50em;
+}
+
+.textdisplay {
+    border-style: solid;
+    margin: 2em;
+    padding: 2em;
+    width: 45em;
+    height: 8em;
+    background: lightblue;
+    border: 3px solid;
+    text-align: left;
+    line-height: 100%;
+    font-size: 13px;
+}
+
+#anotaciones {
+    height: 10em;
+    width: 20em;
+    margin-top: 10%;
+}
